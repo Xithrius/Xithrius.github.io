@@ -1,4 +1,3 @@
-img.main_icon {
-    box-shadow:
-        6px 7px 20px #aaaaaa;
+.large_icon {
+    box-shadow: -5px 6px 2px 0 rgba(0, 0, 0, 0.4);
 }

@@ -1,13 +1,6 @@
-#icon {
-  cursor: pointer;
-  shape-rendering: crispEdges;
-  fill: url(#MyGradient);
-}
-
 svg {
   fill: #000000;
   transition: fill 1.5s ease;
-  -webkit-transition: fill 1.5s ease;
 }
 
 .grid {
@@ -17,4 +10,27 @@ svg {
   max-width: 100%;
   height: auto;
   width: 50vw;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow(5px 5px 5px #000);
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
+.shadow:hover {
+  -webkit-filter: drop-shadow(25px 6px 5px #000);
+  filter: drop-shadow(25px 6px 5px #000);
+}
+
+@media (prefers-color-scheme: dark) {
+  .shadow {
+    background-color: #333;
+    border-color: rgba(0, 0, 0, 0.125);
+    box-shadow: 2.5px 2.5px 5px #444;
+  }
+
+  .shadow:hover {
+    background-color: #444;
+    box-shadow: 5px 5px 10px #444;
+  }
 }

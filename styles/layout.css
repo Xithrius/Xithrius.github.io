@@ -1,11 +1,11 @@
 * {
-    transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
-  
+
 html {
-    background: rgb(63, 82, 99);
+  background: rgb(63, 82, 99);
 }
 
 body {
-    color: white;
+  color: white;
 }

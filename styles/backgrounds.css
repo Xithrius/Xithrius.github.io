@@ -1,0 +1,11 @@
+* {
+  transition: all 1s ease-out;
+}
+
+html {
+  background: rgb(33, 34, 36);
+}
+
+body {
+  color: white;
+}

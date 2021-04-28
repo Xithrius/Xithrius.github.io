@@ -1,0 +1,20 @@
+#icon {
+  cursor: pointer;
+  shape-rendering: crispEdges;
+  fill: url(#MyGradient);
+}
+
+svg {
+  fill: #000000;
+  transition: fill 1.5s ease;
+  -webkit-transition: fill 1.5s ease;
+}
+
+.grid {
+  display: block;
+  place-items: center;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  width: 50vw;
+}

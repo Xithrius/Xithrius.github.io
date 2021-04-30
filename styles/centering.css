@@ -3,7 +3,7 @@ svg {
   transition: fill 1.5s ease;
 }
 
-.grid {
+.grid-svg {
   display: block;
   place-items: center;
   margin: auto;
@@ -12,25 +12,16 @@ svg {
   width: 50vw;
 }
 
+.grid-png {
+  display: block;
+  place-items: center;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
 .shadow {
   -webkit-filter: drop-shadow(5px 5px 5px #000);
   filter: drop-shadow(5px 5px 5px #000);
-}
-
-.shadow:hover {
-  -webkit-filter: drop-shadow(25px 6px 5px #000);
-  filter: drop-shadow(25px 6px 5px #000);
-}
-
-@media (prefers-color-scheme: dark) {
-  .shadow {
-    background-color: #333;
-    border-color: rgba(0, 0, 0, 0.125);
-    box-shadow: 2.5px 2.5px 5px #444;
-  }
-
-  .shadow:hover {
-    background-color: #444;
-    box-shadow: 5px 5px 10px #444;
-  }
 }
